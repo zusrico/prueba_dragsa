@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,100,0,200" />
+
+    <link href="style.css" rel="stylesheet">
+    <title>munin</title>
+</head>
+<body>
+    <header>
+        <div class="navi">
+            <div class="navbar_movil">
+                <div class="burger_menu_icon" id="burger_menu">
+                    <span id="primero"></span>
+                    <span id="segundo"></span>
+                    <span id="tercero"></span>
+                </div>
+            </div>
+            <div class="navbar_flotante_container">
+                <div class="navbar_flotante">
+                    <a href="#mensaje_Munin"><span class="material-symbols-outlined">home</span></a> 
+                    <a href="#planes_pago"><span class="material-symbols-outlined">paid</span></a>  
+                    <a href="#preguntas_frecuentes"><span class="material-symbols-outlined">info</span></a>
+                    <a href="#pie_pagina"><span class="material-symbols-outlined">support_agent</span></a> 
+                </div>
+            </div>
+        </div>
+        <aside>
+            <div class="menu" id="menucito">
+                <div class="desplegable_container">
+                    <ul class="lista_menu_desplegable">
+                        <li><div class="logo_menu">
+                                <a href="#menucito">
+                                    <img src="https://www.dragsa.com/img/dragsa-logo.min.svg" width="100%" alt="logo de dragsa">
+                                </a>
+                            </div>
+                        </li>
+                        <li id="home">
+                            <a href="#mensaje_Munin" class="enlace_menu"><span class="material-symbols-outlined">home</span>Menú principal</a>
+                        </li>
+                        <li id="paid">
+                            <a  href="#planes_pago" class="enlace_menu"><span class="material-symbols-outlined">paid</span>Planes de pago</a>
+                        </li>
+                        <li id="info">
+                            <a href="#marca" class="enlace_menu"><span class="material-symbols-outlined">info</span>Sobre nosotros</a>
+                        </li>
+                        <li id="help">
+                            <a href="#preguntas_y_respuestas" class="enlace_menu"><span class="material-symbols-outlined">help</span>Q&A</a>
+                        </li>
+                        <li id="support_agent">
+                            <a href="#pie_pagina" class="enlace_menu"><span class="material-symbols-outlined">support_agent</span>Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </header>
+    <main id="mainin">
+        <section>
+            <div class="promo-container" id="mensaje_Munin">
+                <div class="promo">
+                    <div class="promo-mensaje_uno">
+                        <h1><span style="color: #ee7a24">MUNIN:</span> Lectura y streamings de cámaras en tiempo real</h1>
+                        <p style="font-size: 20px;">Descubre <span style="font-weight: bolder;">Munin</span>, el software en el que hemos estado trabajando para el <span style="font-weight: bolder;">control de cámaras</span> y con el que podrás transmitir en <span style="font-weight: bolder;">tiempo real</span> gracias al uso de la tecnología WebRTC. Puedes elegir entre todos los planes el que más se adapte a lo que necesites.</p>
+                        <button type="button">Hazte cliente</button>
+                    </div>
+                    <div class="promo-mensaje dos"></div>
+                </div>
+            </div>
+        </section>
+        <section class="planes_pago_container" id="planes_pago">
+            <div class="eslogan_pago">
+                <h2><span style="color: white; background-color: #ee7a24;">Te ayudamos, nos adaptamos</span>. Echa un vistazo al plan que<br>mejor se ajuste a lo que necesitas.</h2>
+            </div>
+            <div class="planes_pago" id="contenedor_tarjetas_pago">
+                <button type="button" id="botoncitoguapo" class="boton_izquierda"><span class="material-symbols-outlined">
+                    arrow_back_ios_new
+                    </span></button>
+                <div class="tarjeta">
+                    <p>UNIVERSITARIOS</p>
+                    <h3><a href="#">PLAN ESTUDIANTE</a></h3>
+                    <p>Es el plan perfecto para todos aquellos que estén empezando.</p>
+                    <p><span style="text-decoration: line-through; font-size: 20px;">15€/mes</span><br><span style="text-align: center; font-size: 28px; color:#ee7a24">9.90€</span></p>
+                </div>
+                <div class="tarjeta">   
+                    <p>APOSTAMOS POR TI</p>
+                    <h3><a href="#">PLAN PYME</a></h3>
+                    <p>Desde Surcontrol queremos dar apoyo y confianza a todos esos nuevos proyectos que quieren hacer las cosas bien desde el principio.</p>
+                    <p><span style="text-decoration: line-through; font-size: 20px;">25€/mes</span><br><span style="text-align: center; font-size: 28px; color:#ee7a24">19.90€</span></p>
+                </div>
+                <div class="tarjeta">
+                    <p>NEGOCIOS</p>
+                    <h3><a href="#">PLAN BUSINESS</a></h3>
+                    <p>Marca la diferencia y ten cobertura 24/7 con teleasistencia dirigida en menos de 2 minutos, no te faltará nada.</p>
+                    <p><span style="text-decoration: line-through; font-size: 20px;">45€/mes</span><br><span style="text-align: center; font-size: 28px; color:#ee7a24">38.90€</span></p>
+                </div>
+                <div class="tarjeta">
+                    <p>NO TE QUEDES CORTO, NO TE PASES</p>
+                    <h3><a href="#">PLAN C</a></h3>
+                    <p>Si piensas que el <i>PLAN BUSINESS</i> se queda corto, este es el tuyo.</p>
+                    <p><span style="text-decoration: line-through; font-size: 20px;">105€/mes</span><br><span style="text-align: center; font-size: 28px; color:#ee7a24">85.90€*</span></p>
+                </div>
+                <div class="tarjeta">
+                    <p>0 LIMITES</p>
+                    <h3><a href="#">PLAN MACRO</a></h3>
+                    <p>No dejes ninguno de tus centros de trabajo sin cubrir.</p>
+                    <p><span style="text-decoration: line-through; font-size: 20px;">250€/mes</span><br><span style="text-align: center; font-size: 28px; color: #ee7a24;">205.90€*</span></p>
+                </div>
+                <button type="button" class="boton_derecha" id="botoncitoguapo_dos"><span class="material-symbols-outlined">
+                    arrow_forward_ios
+                    </span></button>
+            </div>
+        </section>
+        <section class="clientes">
+            <h2>Más de nosecuantos</span> clientes ya se han unido porque somos to buenos haciendo este software.</h2>
+            <button type="button">Hazte cliente</button>
+        </section>
+        <section class="preguntas_frecuentes" id="preguntas_frecuentes">
+            <h2><span style="color:white; background-color: #ee7a24;">Preguntas frecuentes</span>. Todo lo que necesitas saber.</h2>
+            <div class="preguntas">
+                <div class="marca" id="marca">
+                    <h3>¿Qué es MUNIN?</h3>
+                    <p>Lorem lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, tenetur repellendus ducimus maxime illum, temporibus tempore, perspiciatis reiciendis dicta id voluptate repellat voluptatum unde velit eos consequuntur alias! Ex, laudantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio magni amet illum soluta, excepturi perspiciatis iste? Repudiandae reprehenderit aliquid eaque nostrum debitis odit corrupti quisquam eius accusantium earum, officia ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iste. Eaque totam libero placeat, mollitia officiis odit est ullam, corrupti vel provident, corporis exercitationem quaerat. Eveniet deleniti quam ipsa debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nulla quos odit dolores perspiciatis possimus commodi nostrum dolore dolorem repellendus qui, blanditiis maxime id! Nulla minima enim cum veniam quos.</p>
+                </div>
+                <div class="preguntas-producto" id="preguntas_y_respuestas">
+                    <div class="encaje" id="pregunta_uno">
+                        <p class="pregunta">¿Qué hacer en caso de que el software no sea compatible con el hardware con el que cuentas?</p>
+                        <p class="respuesta" id="respuesta_uno">En ese caso contacte con la empresa para ver si es posible adecuar algunas de las versiones con las que estamos trabajando para que se ajusten al sistema disponible.</p>
+                    </div>
+                    <div class="encaje"  id="pregunta_dos">
+                        <p class="pregunta">¿Qué hacer en caso de que el software no sea compatible con el hardware con el que cuentas?</p>
+                        <p class="respuesta" id="respuesta_dos">En ese caso contacte con la empresa para ver si es posible adecuar algunas de las versiones con las que estamos trabajando para que se ajusten al sistema disponible.</p>
+                    </div>
+                    <div class="encaje"  id="pregunta_tres">
+                        <p class="pregunta">¿Qué hacer en caso de que el software no sea compatible con el hardware con el que cuentas?</p>
+                        <p class="respuesta" id="respuesta_tres">En ese caso contacte con la empresa para ver si es posible adecuar algunas de las versiones con las que estamos trabajando para que se ajusten al sistema disponible.</p>
+                    </div>
+                    <div class="encaje" id="pregunta_cuatro">
+                        <p class="pregunta" >¿Qué hacer en caso de que el software no sea compatible con el hardware con el que cuentas?</p>
+                        <p class="respuesta" id="respuesta_cuatro">En ese caso contacte con la empresa para ver si es posible adecuar algunas de las versiones con las que estamos trabajando para que se ajusten al sistema disponible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer >
+        <div class="pie_pagina_container" id="pie_pagina">
+            <div class="pie_pagina_container pie_pagina">
+                    <div class="futer content" style="margin-left: -20px;">
+                        <div class="content-desplegable-container">
+                            <div class="content-desplegable">
+                                <ul>
+                                    <li><a>Enlace primera</li>
+                                    <li><a>Enlace segunda</li>
+                                    <li><a>Enlace tercer</li>
+                                    <li><a>Enlace cuarta</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="links_footer">
+                            <ul>
+                                <li><a href="#mensaje_Munin">Inicio</a></li>
+                                <li><a href="#planes_pago">Ver y comprar</a></li>
+                                <li><a href="#planes_pago">Más planes de compra</a></li>
+                                <li><a href="#">Valores de Surcontrol</a></li>
+                                <li><a href="#">Contactanos</a></li>
+                                <li><a href="#preguntas_frecuentes">Acerca de Surcontrol</a></li>
+                            </ul>
+                        </div>
+                        <div class="links_footer">
+                            <ul>
+                                <li><a href="#mensaje_Munin">Inicio</a></li>
+                                <li><a href="#planes_pago">Ver y comprar</a></li>
+                                <li><a href="#planes_pago">Más planes de compra</a></li>
+                                <li><a href="#">Valores de Surcontrol</a></li>
+                                <li><a href="#">Contactanos</a></li>
+                                <li><a href="#preguntas_frecuentes">Acerca de Surcontrol</a></li>
+                            </ul>
+                        </div>
+                        <div class="links_footer">
+                            <ul>
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#planes_pago">Ver y comprar</a></li>
+                                <li><a href="#">Más planes de compra</a></li>
+                                <li><a href="#">Valores de Surcontrol</a></li>
+                                <li><a href="#">Contactanos</a></li>
+                                <li><a href="#preguntas_frecuentes">Acerca de Surcontrol</a></li>
+                            </ul>
+                        </div>
+                        <div class="links_footer">
+                            <ul>
+                                <li><a href="#mensaje_Munin">Inicio</a></li>
+                                <li><a href="#planes_pago">Ver y comprar</a></li>
+                                <li><a href="#planes_pago">Más planes de compra</a></li>
+                                <li><a href="#">Valores de Surcontrol</a></li>
+                                <li><a href="#">Contactanos</a></li>
+                                <li><a href="#preguntas_frecuentes">Acerca de Surcontrol</a></li>
+                            </ul>
+                        </div>
+                
+                    </div>
+                    <div class="futer pie">
+                        <p>Copyright &copy 2023 Surcontrol. Reservados todos los derechos.</p>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var burgeri = document.getElementById("burger_menu");
+        var menu = document.getElementById("menucito");
+        var home = document.getElementById("home");
+        var paid = document.getElementById("paid");
+        var info = document.getElementById("info");
+        var help = document.getElementById("help")
+        var support_agent = document.getElementById("support_agent");
+        var contenedor_tarjetas_pago = document.getElementById("contenedor_tarjetas_pago");
+        var botoncito = document.getElementById("botoncitoguapo");
+        var botoncito_dos = document.getElementById("botoncitoguapo_dos");
+        var checkin = false;
+
+        var pregunta_uno = document.getElementById("pregunta_uno");
+        var pregunta_dos = document.getElementById("pregunta_dos");
+        var pregunta_tres = document.getElementById("pregunta_tres");
+        var pregunta_cuatro = document.getElementById("pregunta_cuatro");
+
+        var respuesta_uno = document.getElementById("respuesta_uno");
+        var respuesta_dos = document.getElementById("respuesta_dos");
+        var respuesta_tres = document.getElementById("respuesta_tres");
+        var respuesta_cuatro = document.getElementById("respuesta_cuatro");
+
+
+        function desplazaPago(){
+                botoncito.style.opacity = "0.45";
+                contenedor_tarjetas_pago.scrollLeft -= 250;
+        }
+
+        function desplazaPagoDos(){
+                contenedor_tarjetas_pago.scrollLeft += 250;
+        }
+
+        function popearMenu(){
+            if(!checkin){
+                menu.style.display = "flex"
+                menu.style.transition = "1s";
+                burgeri.style.display = "none";
+            }else{
+                menu.style.display = "none";
+                menu.style.transition = "1s";
+            }
+            checkin = !checkin;
+        }
+
+
+        function escondeMenu(){
+            menu.style.display = "none";
+            checkin = !checkin;
+            burgeri.style.display = "inline-block"; 
+        }
+
+
+        function despliegaRespuesta(){
+                respuesta_uno.style.display = "block";
+        }
+
+        function recogeRespuesta(){
+                respuesta_uno.style.display = "none";
+        
+        }
+
+        function despliegaRespuestaDos(){
+                respuesta_dos.style.display = "block";
+        }
+
+        function recogeRespuestaDos(){
+                respuesta_dos.style.display = "none";
+        
+        }
+
+        function despliegaRespuestaTres(){
+                respuesta_tres.style.display = "block";
+        }
+
+        function recogeRespuestaTres(){
+                respuesta_tres.style.display = "none";
+        
+        }
+
+        function despliegaRespuestaCuatro(){
+                respuesta_cuatro.style.display = "block";
+        }
+
+        function recogeRespuestaCuatro(){
+                respuesta_cuatro.style.display = "none";
+        
+        }
+
+        pregunta_uno.addEventListener("mouseover", despliegaRespuesta);
+        pregunta_uno.addEventListener("mouseout", recogeRespuesta);
+
+        pregunta_dos.addEventListener("mouseover", despliegaRespuestaDos);
+        pregunta_dos.addEventListener("mouseout", recogeRespuestaDos);
+        
+        pregunta_tres.addEventListener("mouseover", despliegaRespuestaTres);
+        pregunta_tres.addEventListener("mouseout", recogeRespuestaTres);
+
+        pregunta_cuatro.addEventListener("mouseover", despliegaRespuestaCuatro);
+        pregunta_cuatro.addEventListener("mouseout", recogeRespuestaCuatro);
+
+        burgeri.addEventListener("click", popearMenu);     
+        menu.addEventListener("click", escondeMenu);   
+        
+        botoncito.addEventListener("click", desplazaPago);
+        botoncito_dos.addEventListener("click", desplazaPagoDos);
+
+        contenedor_tarjetas_pago.addEventListener("mouseover", apareceBoton);
+        contenedor_tarjetas_pago.addEventListener("mouseover", apareceBoton);
+
+
+        contenedor_tarjetas_pago.addEventListener("mouseout", desapareceBoton);
+        contenedor_tarjetas_pago.addEventListener("mouseout", desapareceBoton);
+
+        botoncito.addEventListener("mouseover", oscurecer);
+
+        function oscurecer(){
+            botoncito.style.opacity = "0.75";
+        }
+
+        function apareceBoton(){
+            
+            botoncito.style.border = "none";
+            botoncito.style.backgroundColor = "grey";
+            botoncito.style.opacity = "0.45";
+            botoncito.style.boxShadow = "1px 1px 10px grey";
+            
+            botoncito_dos.style.border = "none";
+            botoncito_dos.style.backgroundColor = "grey";
+            botoncito_dos.style.opacity = "0.45";
+            botoncito_dos.style.boxShadow = "1px 1px 10px grey";
+        }
+
+        function desapareceBoton(){
+            botoncito.style.opacity = "0";
+            botoncito_dos.style.opacity = "0";
+        }
+
+    </script>
+</body>
+</html>
